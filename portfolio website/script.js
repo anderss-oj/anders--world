@@ -13,6 +13,7 @@ function resumeAnimation() {
   title.style.animationPlayState = "running";
 }
 
+// makes new circles 
 function createNewElement() {
     const newElement = document.createElement('div');
     newElement.style.background = purple;

@@ -1,0 +1,68 @@
+:root {
+    /* color vars */
+    --purple: rgb(55, 43, 227);
+    --green: rgb(196, 233, 69);
+}
+
+/* animation for title text */
+@keyframes color-cycle {
+    0% {
+      color: var(--green);
+    }
+    50% {
+      color: black;
+    }
+    100% {
+      color: var(--green);
+    }
+  }
+
+body {
+    background-image: url('images/portfolio_background.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 900;
+    /* font-optical-sizing: 70%; */
+    font-size: 90px;
+    color: var(--green);
+    margin: 0;
+    text-align: right;
+}
+
+#pageTitle {
+    animation: color-cycle 6s infinite;
+}
+
+#rightColumn {
+    position: absolute;
+    max-width: 30%;
+    margin-left: 60%;
+    
+}
+
+#leftColumn {
+    position: absolute;
+    max-width: 30%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.list {
+    margin-top: 10%;
+}
+
+.listItem {
+    font-size: x-large;
+    color: var(--purple);
+}
+
+#worksTitle {
+    font-size: 60px;
+    color: var(--purple);
+    text-align: left;
+}

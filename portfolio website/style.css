@@ -66,3 +66,7 @@ h1 {
     color: var(--purple);
     text-align: left;
 }
+
+#hiddenText {
+    display: none;
+}

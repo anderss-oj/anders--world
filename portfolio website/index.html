@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>anders' website!</title>
     <link rel=stylesheet href="style.css">
-    <script src="app.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="rightColumn">
-            <h1 id="pageTitle">anders' <br> cool <br> fun awesome righteous beautiful webpage</h1>
+            <h1 id="pageTitle" onmouseenter="pauseAnimation()" onmouseleave="resumeAnimation()">anders' <br> cool <br> fun awesome righteous beautiful webpage</h1>
     </div>
     <div id="leftColumn">
         <h1 id="worksTitle">Works</h1>
@@ -31,6 +31,8 @@
                 <a href="https://github.com/anderss-oj/first">class github</a>
             </li>
         </ul>
+        <h3 id="shownText">click here?</h3>
+        <h3 id="hiddenText">click there..</h3>
     </div>
 </body>
 </html>
